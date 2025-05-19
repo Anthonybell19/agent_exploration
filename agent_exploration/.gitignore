@@ -1,0 +1,19 @@
+# Ignore virtual environment folders
+venv/
+Lib/
+Include/
+Scripts/
+pyvenv.cfg
+
+# Ignore secrets
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor config
+.vscode/
+
+# System files
+.DS_Store
