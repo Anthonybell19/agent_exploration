@@ -1,0 +1,25 @@
+# 🔧 Core libraries
+langchain>=0.2.0
+notion-client>=2.2.1
+python-dotenv>=1.0.1
+
+# 🧠 Embeddings (Hugging Face)
+langchain-huggingface>=0.0.6
+sentence-transformers>=2.6.1
+transformers>=4.39.3
+torch>=2.1.2
+
+# 🧰 Local vector store
+faiss-cpu>=1.8.0
+
+# 🔢 Tokenizer support
+tiktoken>=0.6.0
+
+# 🧪 Optional (only if using local Ollama models)
+# llama-cpp-python>=0.2.58
+# langchain-community>=0.2.0
+
+# 💡 VSCode dev extras (optional)
+# ipykernel
+# pylint
+# black
